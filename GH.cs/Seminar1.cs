@@ -6,20 +6,20 @@ int max = 0;
 int min = 0;
 
 Console.Write("Введите первое число: ");
-int firstNumber = Convert.ToInt32(Console.ReadLine());
+int firstNumb = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите второе число: ");
-int secondNumber = Convert.ToInt32(Console.ReadLine());
+int secondNum = Convert.ToInt32(Console.ReadLine());
 
-if(firstNumber > secondNumber)
+if(firstNumber > secondNum)
 {
     max = firstNumber;
     min = secondNumber;
 }
 else
 {
-    max = secondNumber;
-    min = firstNumber;
+    max = secondNum;
+    min = firstNum;
 }
 Console.WriteLine("max = " + max + " и " + "min = " + min);
 
@@ -33,23 +33,23 @@ Console.WriteLine("max = " + max + " и " + "min = " + min);
 int max = 0;
 
 Console.Write("Введите первое число: ");
-int firstNumber = Convert.ToInt32(Console.ReadLine());
+int firstNum = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите второе число: ");
-int secondNumber = Convert.ToInt32(Console.ReadLine());
+int secondNum = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите третье число: ");
 int thirdNumber = Convert.ToInt32(Console.ReadLine());
 
-if(firstNumber > max)
+if(firstNum > max)
 {
     max = firstNumber;
 }
-if(secondNumber > max)
+if(secondNum > max)
 {
     max = secondNumber;
 }
-if(thirdNumber > max)
+if(thirdNum > max)
 {
     max = thirdNumber;
 }
@@ -68,7 +68,7 @@ Console.WriteLine("max = " + max);
 Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-int remDiv = number % 2;
+int remDiv = num % 2;
 
 if(remDiv == 0)
 {
@@ -87,15 +87,15 @@ else
 */
 
 Console.Write("Введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine());
 
-int evenNumber = 2;
+int evenNum = 2;
 
-if(number > 1)
+if(num > 1)
 {
-    while(evenNumber <= number)
+    while(evenNum <= num)
     {
-        Console.Write(evenNumber + " ");
-        evenNumber = evenNumber + 2;
+        Console.Write(evenNum+ " ");
+        evenNum = evenNum + 2;
     }
 }
